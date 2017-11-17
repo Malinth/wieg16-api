@@ -18,7 +18,20 @@ $stm = $pdo->prepare($sql);
 $stm->execute([]);
 $customer = $stm-> fetch();
 
-header('Content-Type: application/json');
-echo json_encode($customer);
+//header('Content-Type: application/json');
+//echo json_encode($customer);
 
 // http://localhost/wieg16-api/customers.php?customer_id=1
+
+
+
+if ($customer != null){
+    header('Content-Type: application/json');
+    echo json_encode($customer);
+
+}
+else {
+    header("HTTP/1.0 404 Not Found");
+    echo json_encode(["message" => "Customer not found"]);
+
+}
