@@ -1,5 +1,4 @@
 <?php
-
 $host = 'localhost';
 $db = 'curl';
 $user = 'root';
@@ -12,14 +11,15 @@ $options = [ PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
 
 $pdo = new PDO($dsn, $user, $password, $options);
 
+$id = $_GET['customer_id'];
 
-$sql = " SELECT * FROM `customers` JOIN `address` ON `customers`.`id` = `address`.`customer_id` WHERE `customer_id` = 1";
+$sql = "SELECT * FROM `customers` JOIN `address` ON `customers`.`id` = `address`.`customer_id` WHERE `customer_id` = $id";
 $stm = $pdo->prepare($sql);
 $stm->execute([]);
 $customers = $stm-> fetchAll();
 
 
-header('Content-Type: application/json');
+header('Content-Type: Json');
 echo json_encode($customers);
 
 // http://wieg16-api.dev/customers.php?customer_id=1
