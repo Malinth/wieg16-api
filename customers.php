@@ -16,22 +16,10 @@ $id = $_GET['customer_id'];
 $sql = "SELECT * FROM `customers` JOIN `address` ON `customers`.`id` = `address`.`customer_id` WHERE `customer_id` = $id";
 $stm = $pdo->prepare($sql);
 $stm->execute([]);
-$customer = $stm-> fetch();
+$customer = $stm-> fetchAll();
 
-//header('Content-Type: application/json');
-//echo json_encode($customer);
+header('Content-Type: application/json');
+echo json_encode($customer);
 
 // http://localhost/wieg16-api/customers.php?customer_id=1
 
-
-
-if ($customer != null){
-    header('Content-Type: application/json');
-    echo json_encode($customer);
-
-}
-else {
-    header("HTTP/1.0 404 Not Found");
-    echo json_encode(["message" => "Customer not found"]);
-
-}
