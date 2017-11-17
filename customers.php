@@ -16,10 +16,9 @@ $id = $_GET['customer_id'];
 $sql = "SELECT * FROM `customers` JOIN `address` ON `customers`.`id` = `address`.`customer_id` WHERE `customer_id` = $id";
 $stm = $pdo->prepare($sql);
 $stm->execute([]);
-$customers = $stm-> fetchAll();
+$customer = $stm-> fetch();
 
+header('Content-Type: application/json');
+echo json_encode($customer);
 
-header('Content-Type: Json');
-echo json_encode($customers);
-
-// http://wieg16-api.dev/customers.php?customer_id=1
+// http://localhost/wieg16-api/customers.php?customer_id=1
