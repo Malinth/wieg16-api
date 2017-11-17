@@ -45,8 +45,11 @@ Exempel på url: http://wieg16-api.dev/customers.php?customer_id=1&address=true
 Då skall adressen för kunden med id 1 skrivas ut på skärmen i json-format.
 
 1. Gör en if-sats för om $_GET['address' är satt och är = true
+
 2.Hämta adress från databasen baserat på customer_id
+
 3.skriv ut addressen på skärmen.
+
 4. visa felmeddelande på adressen inte finns.
 
 

@@ -23,14 +23,34 @@ $customer = $stm-> fetch();
 
 // http://localhost/wieg16-api/customers.php?customer_id=1
 
+//http://wieg16-api.dev/customers.php?customer_id=1&address=true
 
-if ($customer != null){
-    header('Content-Type: application/json');
+
+$sql = "SELECT * FROM `address` WHERE `customer_id` = $id";
+$stm = $pdo->prepare($sql);
+$stm->execute([]);
+$oneaddress = $stm-> fetch();
+
+$address = isset($_GET['address']) ? $_GET['address'] : null;
+
+header('Content-Type: application/json');
+
+if ($customer != null && $address != null) {
+    echo json_encode($oneaddress);
+}
+
+else if ($customer != null){
     echo json_encode($customer);
 
 }
 else {
+
     header("HTTP/1.0 404 Not Found");
-    echo json_encode(["message" => "Customer not found"]);
+    $messege = "Customer not found";
+    if($address != null)
+        $messege = "Address not found";
+    echo json_encode(["message" => $messege]);
+
+
 
 }
