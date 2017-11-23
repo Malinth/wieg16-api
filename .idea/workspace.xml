@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20f59f8-c99c-4863-9e5e-a89211a7ac1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customers.php" afterPath="$PROJECT_DIR$/customers.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +65,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="companies.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="companies.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companies.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-275">
@@ -75,6 +74,23 @@
                 <marker date="1511429703000" expanded="true" signature="363:388" ph="SELECT * FRO... customers" />
                 <marker date="1511429703000" expanded="true" signature="937:962" ph="SELECT * FRO... companies" />
                 <marker date="1511429703000" expanded="true" signature="1117:1200" ph="UPDATE `cust... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+                <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+                <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+                <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+                <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+                <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
               </folding>
             </state>
           </provider>
@@ -94,9 +110,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/customers.php" />
         <option value="$PROJECT_DIR$/companies2.php" />
         <option value="$PROJECT_DIR$/companies.php" />
+        <option value="$PROJECT_DIR$/customers.php" />
       </list>
     </option>
   </component>
@@ -248,12 +264,12 @@
       <workItem from="1511023331232" duration="2021000" />
       <workItem from="1511196718024" duration="430000" />
       <workItem from="1511421136159" duration="3282000" />
-      <workItem from="1511429694128" duration="40000" />
+      <workItem from="1511429694128" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20557000" />
+    <option name="totallyTimeSpent" value="21173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -304,10 +320,12 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
@@ -318,10 +336,12 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
@@ -332,10 +352,12 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
@@ -346,10 +368,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
@@ -359,10 +383,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
@@ -384,19 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/companies2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -413,6 +426,21 @@
             <marker date="1511429703000" expanded="true" signature="363:388" ph="SELECT * FRO... customers" />
             <marker date="1511429703000" expanded="true" signature="937:962" ph="SELECT * FRO... companies" />
             <marker date="1511429703000" expanded="true" signature="1117:1200" ph="UPDATE `cust... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <marker date="1511430665000" expanded="true" signature="400:486" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:509" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="400:510" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="807:853" ph="SELECT * FRO... address" />
+            <marker date="1511430665000" expanded="true" signature="1483:1530" ph="SELECT * FRO... customers" />
+            <marker date="1511430665000" expanded="true" signature="1508:1530" ph="SELECT * FRO... customers" />
           </folding>
         </state>
       </provider>
