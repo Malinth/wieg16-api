@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20f59f8-c99c-4863-9e5e-a89211a7ac1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customers.php" afterPath="$PROJECT_DIR$/customers.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,22 +66,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="customers.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/customers.php">
+      <file leaf-file-name="companies.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/companies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="-275">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1510928511000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-                <marker date="1510928511000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-                <marker date="1510928511000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-                <marker date="1510928511000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+                <marker date="1511429703000" expanded="true" signature="363:388" ph="SELECT * FRO... customers" />
+                <marker date="1511429703000" expanded="true" signature="937:962" ph="SELECT * FRO... companies" />
+                <marker date="1511429703000" expanded="true" signature="1117:1200" ph="UPDATE `cust... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>customer_company</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/customers.php" />
+        <option value="$PROJECT_DIR$/companies2.php" />
+        <option value="$PROJECT_DIR$/companies.php" />
       </list>
     </option>
   </component>
@@ -121,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,7 +143,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,27 +243,32 @@
       <option name="presentableId" value="Default" />
       <updated>1510750399760</updated>
       <workItem from="1510750402756" duration="4248000" />
-      <workItem from="1510913380556" duration="7834000" />
+      <workItem from="1510913380556" duration="7885000" />
+      <workItem from="1511004315469" duration="2651000" />
+      <workItem from="1511023331232" duration="2021000" />
+      <workItem from="1511196718024" duration="430000" />
+      <workItem from="1511421136159" duration="3282000" />
+      <workItem from="1511429694128" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12082000" />
+    <option name="totallyTimeSpent" value="20557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16171876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -280,15 +291,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/companies2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies.php" />
+    <entry file="file://$PROJECT_DIR$/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies.php" />
+    <entry file="file://$PROJECT_DIR$/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies.php" />
     <entry file="file://$PROJECT_DIR$/customers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510928511000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
           </folding>
         </state>
       </provider>
@@ -297,7 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -306,7 +379,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="440">
             <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -314,13 +386,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <marker date="1510928511000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
-            <marker date="1510928511000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+            <marker date="1511005933000" expanded="true" signature="398:484" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:507" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="398:508" ph="SELECT * FRO... customers" />
+            <marker date="1511005933000" expanded="true" signature="800:846" ph="SELECT * FRO... address" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511429703000" expanded="true" signature="363:388" ph="SELECT * FRO... customers" />
+            <marker date="1511429703000" expanded="true" signature="937:962" ph="SELECT * FRO... companies" />
+            <marker date="1511429703000" expanded="true" signature="1117:1200" ph="UPDATE `cust... " />
           </folding>
         </state>
       </provider>
